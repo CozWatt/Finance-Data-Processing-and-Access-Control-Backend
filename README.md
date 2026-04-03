@@ -57,7 +57,7 @@ finance-backend/
 ├── tests/
 │   └── api.test.js
 ├── postman/
-│   └── finance-backend.postman_collection.json
+│   └── finance-backend.postman_collection.json    # Postman Collection
 ├── .env.example
 ├── .gitignore
 ├── jest.config.json
