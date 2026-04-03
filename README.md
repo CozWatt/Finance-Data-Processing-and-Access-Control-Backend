@@ -56,6 +56,8 @@ finance-backend/
 │   └── server.js               # Entry point + DB seed
 ├── tests/
 │   └── api.test.js
+├── postman/
+│   └── finance-backend.postman_collection.json
 ├── .env.example
 ├── .gitignore
 ├── jest.config.json
