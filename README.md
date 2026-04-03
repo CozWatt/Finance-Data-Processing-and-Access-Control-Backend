@@ -355,6 +355,19 @@ Returns the 5 most recent transactions.
 
 ---
 
+
+## 📌 Note
+
+Run the backend locally before testing APIs in Postman:
+
+- Start server: npm run dev
+- Base URL: http://localhost:3000
+- Use Login API to get JWT token
+- Add token as Bearer Token in Postman
+
+Ensure MongoDB is running.
+
+
 ## Assumptions Made
 
 1. **Categories are predefined** — The list of categories is fixed in the model. This avoids messy free-text categories that break analytics grouping. In production, categories could be made configurable via a separate collection.
